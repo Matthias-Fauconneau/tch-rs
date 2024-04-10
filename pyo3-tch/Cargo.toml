@@ -14,4 +14,5 @@ license = "MIT/Apache-2.0"
 [dependencies]
 tch = { path = "..", features = ["python-extension"], version = "0.15.0" }
 torch-sys = { path = "../torch-sys", features = ["python-extension"], version = "0.15.0" }
-pyo3 = { version = "0.18.3", features = ["extension-module"] }
+pyo3 = { version = "*" }
+#pyo3 = { version = "*", features = ["extension-module"] }
